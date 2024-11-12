@@ -148,7 +148,8 @@
 \newenvironment{roweqmat}[1]{\left(\array{@{}#1@{}}}{\endarray\right)}
 
 
-\newcommand{\sign}{\operatorname{sign}}
+\providecommand\sign{}
+\renewcommand{\sign}{\operatorname{sign}}
 \newcommand{\la}{\langle}
 \newcommand{\ra}{\rangle}
 \newcommand{\inner}[1]{\langle #1 \rangle}
